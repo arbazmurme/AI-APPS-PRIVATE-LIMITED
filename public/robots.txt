@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aiappshub.com/sitemap.xml
+Host: https://aiappshub.com

@@ -1,0 +1,21 @@
+{
+  "name": "AI APPS PRIVATE LIMITED",
+  "short_name": "AI APPS",
+  "description": "Next-Gen Software Development, Ready-To-Launch Mobile Apps & AI Solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050811",
+  "theme_color": "#00f0ff",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

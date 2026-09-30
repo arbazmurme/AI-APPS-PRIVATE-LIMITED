@@ -1,4 +1,21 @@
 import './globals.css';
+import { Outfit, Space_Grotesk } from 'next/font/google';
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-outfit',
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
+  preload: true,
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-space',
+  weight: ['300', '400', '500', '600', '700'],
+  preload: false,
+});
 
 const BASE_URL = 'https://aiappshub.com';
 
@@ -323,16 +340,8 @@ const jsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${outfit.variable} ${spaceGrotesk.variable}`}>
       <head>
-        {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-
         {/* Favicon explicit tags (belt + suspenders) */}
         <link rel="icon"             href="/favicon.ico"  sizes="32x32" />
         <link rel="icon"             href="/favicon.png"  type="image/png" sizes="1254x1254" />

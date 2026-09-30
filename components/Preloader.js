@@ -33,60 +33,63 @@ export default function Preloader({ onDone }) {
       canvas.width  = W;
       canvas.height = H;
     };
-    window.addEventListener('resize', onResize);
+    window.addEventListener('resize', onResize, { passive: true });
 
-    /* Particle nodes */
-    const COUNT = Math.min(Math.floor((W * H) / 12000), 80);
+    /* Particle nodes: lightweight count for smooth first paint */
+    const isMobile = W < 768;
+    const COUNT = isMobile ? 18 : 36;
     const nodes = Array.from({ length: COUNT }, () => ({
       x: Math.random() * W,
       y: Math.random() * H,
-      vx: (Math.random() - 0.5) * 0.5,
-      vy: (Math.random() - 0.5) * 0.5,
-      r: Math.random() * 2.5 + 1,
-      hue: Math.random() > 0.5 ? 262 : 199, // purple or cyan
+      vx: (Math.random() - 0.5) * 0.6,
+      vy: (Math.random() - 0.5) * 0.6,
+      r: Math.random() * 2 + 1.2,
+      hue: Math.random() > 0.5 ? 262 : 199,
     }));
 
-    const MAX_DIST = 140;
+    const MAX_DIST = 120;
 
     const draw = () => {
       ctx.clearRect(0, 0, W, H);
 
       /* Move & bounce */
-      nodes.forEach(n => {
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
         n.x += n.vx;
         n.y += n.vy;
         if (n.x < 0 || n.x > W) n.vx *= -1;
         if (n.y < 0 || n.y > H) n.vy *= -1;
-      });
+      }
 
-      /* Connection lines */
+      /* Batched Connection lines */
+      ctx.beginPath();
+      ctx.strokeStyle = 'rgba(139, 92, 246, 0.22)';
+      ctx.lineWidth = 0.8;
       for (let i = 0; i < nodes.length; i++) {
+        const ni = nodes[i];
         for (let j = i + 1; j < nodes.length; j++) {
-          const dx = nodes[i].x - nodes[j].x;
-          const dy = nodes[i].y - nodes[j].y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          if (dist < MAX_DIST) {
-            const alpha = (1 - dist / MAX_DIST) * 0.28;
-            ctx.beginPath();
-            ctx.moveTo(nodes[i].x, nodes[i].y);
-            ctx.lineTo(nodes[j].x, nodes[j].y);
-            ctx.strokeStyle = `hsla(${nodes[i].hue}, 80%, 65%, ${alpha})`;
-            ctx.lineWidth = 0.8;
-            ctx.stroke();
+          const nj = nodes[j];
+          const dx = ni.x - nj.x;
+          const dy = ni.y - nj.y;
+          if (Math.abs(dx) < MAX_DIST && Math.abs(dy) < MAX_DIST) {
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < MAX_DIST) {
+              ctx.moveTo(ni.x, ni.y);
+              ctx.lineTo(nj.x, nj.y);
+            }
           }
         }
       }
+      ctx.stroke();
 
-      /* Nodes */
-      nodes.forEach(n => {
+      /* Nodes: hardware accelerated without shadowBlur */
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
         ctx.beginPath();
         ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
-        ctx.fillStyle = `hsla(${n.hue}, 80%, 70%, 0.7)`;
-        ctx.shadowBlur = 8;
-        ctx.shadowColor = `hsla(${n.hue}, 90%, 60%, 0.6)`;
+        ctx.fillStyle = `hsla(${n.hue}, 85%, 70%, 0.85)`;
         ctx.fill();
-        ctx.shadowBlur = 0;
-      });
+      }
 
       animId = requestAnimationFrame(draw);
     };
@@ -98,11 +101,11 @@ export default function Preloader({ onDone }) {
     };
   }, []);
 
-  /* ─── Progress bar ─── */
+  /* ─── Fast & Snappy Progress Bar (Prevents Lighthouse LCP delay) ─── */
   useEffect(() => {
     let current = 0;
     const interval = setInterval(() => {
-      const step = Math.floor(Math.random() * 8) + 5;
+      const step = Math.floor(Math.random() * 12) + 12; // 12-24% per tick
       current = Math.min(current + step, 100);
       setProgress(current);
 
@@ -115,9 +118,9 @@ export default function Preloader({ onDone }) {
         setTimeout(() => {
           setHidden(true);
           if (onDone) onDone();
-        }, 400);
+        }, 120);
       }
-    }, 45);
+    }, 18);
 
     return () => clearInterval(interval);
   }, [onDone]);
@@ -141,7 +144,7 @@ export default function Preloader({ onDone }) {
         {/* Logo Image */}
         <div className={styles.logoWrap}>
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="AI APPS PRIVATE LIMITED"
             width={220}
             height={55}

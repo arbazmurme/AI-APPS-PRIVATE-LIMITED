@@ -7,7 +7,7 @@
   padding: 100px clamp(16px, 4vw, 48px) 40px;
   overflow: hidden;
   width: 100%;
-  background: url('/hero_bg.png') no-repeat center center;
+  background: url('/hero_bg.webp') no-repeat center center;
   background-size: cover;
 }
 

@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.93) 0%, rgba(248, 250, 252, 0.96) 100%), url('/Footer.png') no-repeat center top / cover;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.93) 0%, rgba(248, 250, 252, 0.96) 100%), url('/Footer.webp') no-repeat center top / cover;
   border-top: 1px solid var(--border);
   padding: 70px 0 35px;
   overflow: hidden;
@@ -8,7 +8,7 @@
 }
 
 [data-theme="dark"] .footer {
-  background: linear-gradient(180deg, rgba(5, 8, 17, 0.94) 0%, rgba(10, 15, 29, 0.96) 100%), url('/Footer.png') no-repeat center top / cover;
+  background: linear-gradient(180deg, rgba(5, 8, 17, 0.94) 0%, rgba(10, 15, 29, 0.96) 100%), url('/Footer.webp') no-repeat center top / cover;
 }
 
 .grid {

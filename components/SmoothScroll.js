@@ -4,15 +4,20 @@ import Lenis from 'lenis';
 
 export default function SmoothScroll() {
   useEffect(() => {
-    // Initialize buttery smooth inertial scrolling with Lenis
+    // Mobile touch devices have hardware momentum scrolling; avoid hijacking touch thread
+    if (typeof window === 'undefined') return;
+    const isTouch = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+    if (isTouch) return;
+
+    // Initialize buttery smooth inertial scrolling with Lenis for desktop/laptop
     const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // smooth exponential decay
+      duration: 1.1,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       orientation: 'vertical',
       gestureOrientation: 'vertical',
       smoothWheel: true,
       wheelMultiplier: 1.0,
-      touchMultiplier: 1.2,
+      touchMultiplier: 0,
       infinite: false,
     });
 

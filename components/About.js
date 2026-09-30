@@ -47,85 +47,119 @@ export default function About() {
   const [activePillar, setActivePillar] = useState(0);
 
   useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
     let animId;
-    import('three').then((THREE) => {
-      const canvas = canvasRef.current;
-      if (!canvas) return;
-      const parent = canvas.parentElement;
+    let isRunning = false;
+    let threeInitialized = false;
+    let animateFn = null;
 
-      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    const initThree = () => {
+      if (threeInitialized) return;
+      threeInitialized = true;
 
-      const resize = () => {
-        if (!parent || !canvas) return;
-        renderer.setSize(parent.offsetWidth, parent.offsetHeight);
-        camera.aspect = parent.offsetWidth / parent.offsetHeight;
-        camera.updateProjectionMatrix();
-      };
+      import('three').then((THREE) => {
+        if (!canvas) return;
+        const parent = canvas.parentElement;
 
-      const scene = new THREE.Scene();
-      const camera = new THREE.PerspectiveCamera(50, 1, 0.1, 100);
-      camera.position.z = 4.8;
+        const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'low-power' });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
 
-      // Outer Wireframe Polyhedron
-      const geom = new THREE.IcosahedronGeometry(1.6, 1);
-      const wireMat = new THREE.MeshBasicMaterial({
-        color: 0x7c3aed,
-        wireframe: true,
-        transparent: true,
-        opacity: 0.28
+        const resize = () => {
+          if (!parent || !canvas) return;
+          renderer.setSize(parent.offsetWidth, parent.offsetHeight);
+          camera.aspect = parent.offsetWidth / parent.offsetHeight;
+          camera.updateProjectionMatrix();
+        };
+
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(50, 1, 0.1, 100);
+        camera.position.z = 4.8;
+
+        // Outer Wireframe Polyhedron
+        const geom = new THREE.IcosahedronGeometry(1.6, 1);
+        const wireMat = new THREE.MeshBasicMaterial({
+          color: 0x7c3aed,
+          wireframe: true,
+          transparent: true,
+          opacity: 0.28
+        });
+        const mesh = new THREE.Mesh(geom, wireMat);
+        scene.add(mesh);
+
+        // Inner Glowing Core
+        const innerGeom = new THREE.OctahedronGeometry(0.9, 0);
+        const innerMat = new THREE.MeshBasicMaterial({
+          color: 0x06b6d4,
+          wireframe: true,
+          transparent: true,
+          opacity: 0.55
+        });
+        const innerMesh = new THREE.Mesh(innerGeom, innerMat);
+        scene.add(innerMesh);
+
+        // Orbital Particle Ring
+        const particleCount = 120;
+        const particleGeom = new THREE.BufferGeometry();
+        const posArray = new Float32Array(particleCount * 3);
+        for (let i = 0; i < particleCount * 3; i += 3) {
+          const theta = Math.random() * Math.PI * 2;
+          const radius = 2.0 + Math.random() * 0.7;
+          posArray[i] = Math.cos(theta) * radius;
+          posArray[i + 1] = (Math.random() - 0.5) * 1.2;
+          posArray[i + 2] = Math.sin(theta) * radius;
+        }
+        particleGeom.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+        const particleMat = new THREE.PointsMaterial({
+          size: 0.04,
+          color: 0x8b5cf6,
+          transparent: true,
+          opacity: 0.65
+        });
+        const particleSystem = new THREE.Points(particleGeom, particleMat);
+        scene.add(particleSystem);
+
+        resize();
+        window.addEventListener('resize', resize);
+
+        animateFn = () => {
+          if (!isRunning) return;
+          animId = requestAnimationFrame(animateFn);
+          mesh.rotation.x += 0.004;
+          mesh.rotation.y += 0.007;
+          innerMesh.rotation.x -= 0.009;
+          innerMesh.rotation.z += 0.006;
+          particleSystem.rotation.y += 0.003;
+          renderer.render(scene, camera);
+        };
+
+        if (isRunning) {
+          animateFn();
+        }
       });
-      const mesh = new THREE.Mesh(geom, wireMat);
-      scene.add(mesh);
+    };
 
-      // Inner Glowing Core
-      const innerGeom = new THREE.OctahedronGeometry(0.9, 0);
-      const innerMat = new THREE.MeshBasicMaterial({
-        color: 0x06b6d4,
-        wireframe: true,
-        transparent: true,
-        opacity: 0.55
-      });
-      const innerMesh = new THREE.Mesh(innerGeom, innerMat);
-      scene.add(innerMesh);
-
-      // Orbital Particle Ring
-      const particleCount = 180;
-      const particleGeom = new THREE.BufferGeometry();
-      const posArray = new Float32Array(particleCount * 3);
-      for (let i = 0; i < particleCount * 3; i += 3) {
-        const theta = Math.random() * Math.PI * 2;
-        const radius = 2.0 + Math.random() * 0.7;
-        posArray[i] = Math.cos(theta) * radius;
-        posArray[i + 1] = (Math.random() - 0.5) * 1.2;
-        posArray[i + 2] = Math.sin(theta) * radius;
+    const io = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        isRunning = true;
+        if (!threeInitialized) {
+          initThree();
+        } else if (animateFn) {
+          animateFn();
+        }
+      } else {
+        isRunning = false;
+        if (animId) cancelAnimationFrame(animId);
       }
-      particleGeom.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-      const particleMat = new THREE.PointsMaterial({
-        size: 0.04,
-        color: 0x8b5cf6,
-        transparent: true,
-        opacity: 0.65
-      });
-      const particleSystem = new THREE.Points(particleGeom, particleMat);
-      scene.add(particleSystem);
+    }, { rootMargin: '200px' });
 
-      resize();
-      window.addEventListener('resize', resize);
+    io.observe(canvas);
 
-      const animate = () => {
-        animId = requestAnimationFrame(animate);
-        mesh.rotation.x += 0.004;
-        mesh.rotation.y += 0.007;
-        innerMesh.rotation.x -= 0.009;
-        innerMesh.rotation.z += 0.006;
-        particleSystem.rotation.y += 0.003;
-        renderer.render(scene, camera);
-      };
-      animate();
-    });
-
-    return () => cancelAnimationFrame(animId);
+    return () => {
+      io.disconnect();
+      if (animId) cancelAnimationFrame(animId);
+    };
   }, []);
 
   return (
@@ -151,11 +185,12 @@ export default function About() {
               
               <div className={styles.imageBox}>
                 <Image
-                  src="/share_img.png"
+                  src="/share_img.webp"
                   alt="AI APPS Architecture & Digital Engineering"
                   fill
                   sizes="(max-width: 768px) 100vw, 550px"
                   className={styles.heroImg}
+                  loading="lazy"
                 />
                 <div className={styles.imgGlowGrad} />
               </div>

@@ -57,7 +57,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" className={styles.logo} onClick={closeMenu}>
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="AI APPS PRIVATE LIMITED"
             width={220}
             height={55}

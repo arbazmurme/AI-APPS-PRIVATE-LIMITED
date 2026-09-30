@@ -13,11 +13,12 @@ export default function Footer() {
           <div className={styles.brand}>
             <div className={styles.logo}>
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="AI APPS PRIVATE LIMITED"
                 width={240}
                 height={60}
                 className={styles.logoImg}
+                loading="lazy"
               />
             </div>
             <p>Building intelligent software solutions that drive growth, innovation, and competitive advantage for businesses worldwide.</p>

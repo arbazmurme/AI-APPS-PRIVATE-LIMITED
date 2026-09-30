@@ -32,6 +32,7 @@ function TeamCard({ member, index }) {
               fill
               sizes="100px"
               className={styles.avatarImage}
+              loading="lazy"
               onError={() => setImgError(true)}
             />
           ) : (

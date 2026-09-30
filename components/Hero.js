@@ -174,12 +174,12 @@ export default function Hero() {
         <div className={styles.visualCol}>
           <div className={styles.illustrationWrapper}>
             <Image
-              src="/hero_rigth_side_img.png"
+              src="/hero_rigth_side_img.webp"
               alt="AI Apps Intelligent Solutions Ecosystem"
               width={1536}
               height={1024}
               priority
-              quality={100}
+              fetchPriority="high"
               className={styles.heroMainImg}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 650px"
             />

@@ -1,6 +1,6 @@
 .section {
   padding: 70px 0 75px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 250, 252, 0.9) 100%), url('/hero_bg.png') center top / cover no-repeat;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 250, 252, 0.9) 100%), url('/hero_bg.webp') center top / cover no-repeat;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   position: relative;
@@ -9,7 +9,7 @@
 }
 
 [data-theme="dark"] .section {
-  background: linear-gradient(180deg, rgba(5, 8, 17, 0.93) 0%, rgba(10, 15, 29, 0.9) 100%), url('/hero_bg.png') center top / cover no-repeat;
+  background: linear-gradient(180deg, rgba(5, 8, 17, 0.93) 0%, rgba(10, 15, 29, 0.9) 100%), url('/hero_bg.webp') center top / cover no-repeat;
 }
 
 .grid {

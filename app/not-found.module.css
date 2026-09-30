@@ -1,0 +1,335 @@
+/* 404 Page — Full Premium Animated Design */
+
+.page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: #070913;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* ── Canvas particle bg ── */
+.canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Ambient Glow Orbs ── */
+.orb1 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(109, 40, 217, 0.35) 0%, transparent 70%);
+  top: -15%;
+  left: -10%;
+  filter: blur(70px);
+  animation: orbDrift1 9s ease-in-out infinite alternate;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.orb2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.28) 0%, transparent 70%);
+  bottom: -10%;
+  right: -8%;
+  filter: blur(65px);
+  animation: orbDrift2 11s ease-in-out infinite alternate;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@keyframes orbDrift1 {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(50px, 60px) scale(1.15); }
+}
+@keyframes orbDrift2 {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-60px, -50px) scale(1.2); }
+}
+
+/* ── Spinning Rings ── */
+.ring1 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border: 1px solid rgba(124, 58, 237, 0.22);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinCW 20s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ring2 {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  border: 1px dashed rgba(6, 182, 212, 0.28);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinCCW 14s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ring3 {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(168, 85, 247, 0.3);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinCW 8s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes spinCW  { to { transform: translate(-50%,-50%) rotate(360deg); } }
+@keyframes spinCCW { to { transform: translate(-50%,-50%) rotate(-360deg); } }
+
+/* ── Perspective Grid Floor ── */
+.gridFloor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  background-image:
+    linear-gradient(rgba(124, 58, 237, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 58, 237, 0.12) 1px, transparent 1px);
+  background-size: 50px 50px;
+  transform: perspective(400px) rotateX(60deg);
+  transform-origin: bottom center;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+}
+
+/* ── Center Content ── */
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 24px;
+  gap: 0;
+}
+
+/* ── Giant 404 with Glitch ── */
+.code {
+  font-size: clamp(6rem, 18vw, 13rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -6px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #a855f7, #6d28d9 40%, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  filter: drop-shadow(0 0 30px rgba(124, 58, 237, 0.6));
+  animation: floatCode 4s ease-in-out infinite alternate;
+  user-select: none;
+}
+
+/* Glitch pseudo layers */
+.code::before,
+.code::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #a855f7, #6d28d9 40%, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.glitch::before {
+  animation: glitchA 0.5s steps(2) forwards;
+  opacity: 1;
+}
+.glitch::after {
+  animation: glitchB 0.5s steps(2) forwards;
+  opacity: 1;
+}
+
+@keyframes glitchA {
+  0%   { clip-path: inset(10% 0 60% 0); transform: translate(-4px, 2px); }
+  25%  { clip-path: inset(40% 0 20% 0); transform: translate(4px, -3px); }
+  50%  { clip-path: inset(70% 0 5%  0); transform: translate(-3px, 4px); }
+  75%  { clip-path: inset(20% 0 50% 0); transform: translate(3px, 0); }
+  100% { clip-path: inset(0% 0 0% 0);   transform: translate(0); opacity: 0; }
+}
+@keyframes glitchB {
+  0%   { clip-path: inset(60% 0 10% 0); transform: translate(4px, -2px); filter: hue-rotate(90deg); }
+  25%  { clip-path: inset(20% 0 40% 0); transform: translate(-3px, 3px); }
+  50%  { clip-path: inset(5%  0 70% 0); transform: translate(3px, -4px); }
+  75%  { clip-path: inset(50% 0 20% 0); transform: translate(-4px, 0); }
+  100% { clip-path: inset(0% 0 0% 0);   transform: translate(0); opacity: 0; }
+}
+
+@keyframes floatCode {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-14px); }
+}
+
+/* ── Divider ── */
+.divider {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #7c3aed, #06b6d4);
+  border-radius: 99px;
+  margin: 8px auto 24px;
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.6);
+}
+
+/* ── Title ── */
+.title {
+  font-size: clamp(1.5rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+  color: #f8fafc;
+  letter-spacing: -0.5px;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+
+.grad {
+  background: linear-gradient(135deg, #a855f7, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Subtitle ── */
+.sub {
+  font-size: 0.95rem;
+  color: rgba(203, 213, 225, 0.75);
+  line-height: 1.7;
+  max-width: 440px;
+  margin-bottom: 36px;
+}
+
+/* ── Action Buttons ── */
+.actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 99px;
+  background: linear-gradient(135deg, #7c3aed, #06b6d4);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-decoration: none;
+  transition: transform 0.3s cubic-bezier(0.16,1,0.3,1), box-shadow 0.3s ease;
+  box-shadow: 0 4px 22px rgba(124, 58, 237, 0.45), 0 0 0 1px rgba(255,255,255,0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.btnPrimary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #6d28d9, #0284c7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btnPrimary:hover { transform: translateY(-3px); box-shadow: 0 8px 32px rgba(124,58,237,0.6); }
+.btnPrimary:hover::before { opacity: 1; }
+.btnPrimary svg, .btnPrimary span { position: relative; z-index: 1; }
+
+.btnGhost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 99px;
+  border: 1.5px solid rgba(124, 58, 237, 0.45);
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-decoration: none;
+  background: rgba(124, 58, 237, 0.08);
+  backdrop-filter: blur(12px);
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.btnGhost:hover {
+  transform: translateY(-3px);
+  border-color: rgba(168, 85, 247, 0.8);
+  background: rgba(124, 58, 237, 0.2);
+}
+
+/* ── Status Chip ── */
+.statusChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 99px;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  font-size: 0.72rem;
+  color: #6ee7b7;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.statusDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.8);
+  animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* ── Responsive ── */
+@media (max-width: 480px) {
+  .ring1 { width: 340px; height: 340px; }
+  .ring2 { width: 240px; height: 240px; }
+  .ring3 { width: 160px; height: 160px; }
+  .actions { flex-direction: column; align-items: center; }
+}

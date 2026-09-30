@@ -85,27 +85,27 @@
 /* Grid Layout */
 .servicesGrid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   width: 100%;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1200px) {
   .servicesGrid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 860px) {
   .servicesGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 540px) {
   .servicesGrid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 14px;
   }
 }
 

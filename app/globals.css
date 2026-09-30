@@ -316,11 +316,65 @@ input, textarea, select { font-family: var(--font); }
 .cursor-hover .cursor { width: 20px; height: 20px; background: var(--accent); }
 .cursor-hover .cursor-follower { width: 56px; height: 56px; border-color: rgba(2, 132, 199, 0.6); }
 
-/* ---- REVEAL ANIMATIONS ---- */
-.reveal-up {
+/* ============================================
+   SCROLL REVEAL ANIMATION SYSTEM
+   ============================================ */
+
+/* All reveal elements start hidden */
+body.js-reveal .reveal-up,
+body.js-reveal .reveal-left,
+body.js-reveal .reveal-right,
+body.js-reveal .reveal-zoom,
+body.js-reveal .reveal-fade {
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+body.js-reveal .reveal-up    { transform: translateY(40px); }
+body.js-reveal .reveal-left  { transform: translateX(-45px); }
+body.js-reveal .reveal-right { transform: translateX(45px); }
+body.js-reveal .reveal-zoom  { transform: scale(0.88); }
+body.js-reveal .reveal-fade  { transform: none; }
+
+/* Visible states */
+body.js-reveal .reveal-up.visible,
+body.js-reveal .reveal-left.visible,
+body.js-reveal .reveal-right.visible,
+body.js-reveal .reveal-zoom.visible,
+body.js-reveal .reveal-fade.visible {
   opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: none;
+  transition:
+    opacity  0.72s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.72s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Stagger delays for child elements */
+body.js-reveal .stagger > *:nth-child(1)  { transition-delay: 0ms; }
+body.js-reveal .stagger > *:nth-child(2)  { transition-delay: 80ms; }
+body.js-reveal .stagger > *:nth-child(3)  { transition-delay: 160ms; }
+body.js-reveal .stagger > *:nth-child(4)  { transition-delay: 240ms; }
+body.js-reveal .stagger > *:nth-child(5)  { transition-delay: 320ms; }
+body.js-reveal .stagger > *:nth-child(6)  { transition-delay: 400ms; }
+body.js-reveal .stagger > *:nth-child(7)  { transition-delay: 480ms; }
+body.js-reveal .stagger > *:nth-child(8)  { transition-delay: 560ms; }
+body.js-reveal .stagger > *:nth-child(n+9){ transition-delay: 600ms; }
+
+/* Manual delay utilities */
+.delay-100  { transition-delay: 100ms !important; }
+.delay-200  { transition-delay: 200ms !important; }
+.delay-300  { transition-delay: 300ms !important; }
+.delay-400  { transition-delay: 400ms !important; }
+.delay-500  { transition-delay: 500ms !important; }
+
+/* Non-JS fallback: always show */
+body:not(.js-reveal) .reveal-up,
+body:not(.js-reveal) .reveal-left,
+body:not(.js-reveal) .reveal-right,
+body:not(.js-reveal) .reveal-zoom,
+body:not(.js-reveal) .reveal-fade {
+  opacity: 1;
+  transform: none;
 }
 
 /* ---- TECH TICKER ---- */

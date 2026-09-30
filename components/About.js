@@ -145,7 +145,7 @@ export default function About() {
         {/* Main 2-Column Grid */}
         <div className={styles.grid}>
           {/* Left Column: Visual 3D Showcase & Live Glass Cards */}
-          <div className={`${styles.visualCol} reveal-up`}>
+          <div className={`${styles.visualCol} reveal-left`}>
             <div className={styles.showcaseCard}>
               <canvas ref={canvasRef} className={styles.canvas3d} />
               
@@ -176,7 +176,7 @@ export default function About() {
             </div>
 
             {/* Live Stats Row */}
-            <div className={styles.statsRow}>
+            <div className={`${styles.statsRow} stagger`}>
               {stats.map((s, idx) => (
                 <div key={idx} className={styles.statItem}>
                   <div className={styles.statIcon}>{s.icon}</div>
@@ -188,7 +188,7 @@ export default function About() {
           </div>
 
           {/* Right Column: Narrative & Interactive Core Pillars */}
-          <div className={`${styles.contentCol} reveal-up`}>
+          <div className={`${styles.contentCol} reveal-right`}>
             <div className={styles.narrativeBox}>
               <h3 className={styles.narrativeTitle}>
                 Crafting Scalable, Intelligent & Impactful Software Since 2019
@@ -199,7 +199,7 @@ export default function About() {
             </div>
 
             {/* 4 Interactive Strategic Pillars */}
-            <div className={styles.pillarsGrid}>
+            <div className={`${styles.pillarsGrid} stagger`}>
               {pillars.map((p, i) => {
                 const isActive = activePillar === i;
                 return (

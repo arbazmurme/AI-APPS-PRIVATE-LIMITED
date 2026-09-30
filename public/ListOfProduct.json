@@ -1,0 +1,3438 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "grocery-ecommerce",
+      "category": "E-Commerce",
+      "subcategory": "Food & Grocery",
+      "name": "Grocery E-Commerce Website & App",
+      "shortDescription": "Complete grocery delivery solution with multi-vendor support",
+      "longDescription": "Full-featured grocery e-commerce platform with customer app, seller dashboard, and admin panel. Includes inventory management, order tracking, and payment integration. Perfect for launching your online grocery business.",
+      "icon": "🛒",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706580/dexterous/category/kiranaworld_silder.webp",
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706572/dexterous/category/KiranaWorldcard.webp",
+      "images": [
+        "/category/grocery-1.webp",
+        "/category/grocery-2.webp",
+        "/category/grocery-3.webp"
+      ],
+      "hyderabadPrice": 50000,
+      "bangalorePrice": 320000,
+      "otherCitiesPrice": 220000,
+      "emiOptions": {
+        "3months": "₹76,667/month",
+        "6months": "₹38,333/month",
+        "12months": "₹19,167/month"
+      },
+      "deliveryTime": "10 Days",
+      "support": "1 year",
+      "popular": true,
+      "rating": 4.8,
+      "reviews": 124,
+      "features": [
+        "Website",
+        "Flutter App (Android & iOS)",
+        "Admin Panel",
+        "Customer Panel",
+        "Seller Panel",
+        "Payment Gateway",
+        "Order Tracking",
+        "Push Notifications"
+      ],
+      "featurePrices": {
+        "Website": "₹35,000",
+        "Flutter App (Android & iOS)": "₹45,000",
+        "Admin Panel": "₹25,000",
+        "Customer Panel": "₹20,000",
+        "Seller Panel": "₹30,000",
+        "Payment Gateway": "₹15,000",
+        "Order Tracking": "₹12,000",
+        "Push Notifications": "₹10,000"
+      },
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "React.js",
+        "Node.js",
+        "Firebase",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe",
+        "Cashfree"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹5,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection",
+        "GDPR Compliant"
+      ],
+      "demo": {
+        "url": "https://ewquick.com/",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "seller": "seller@demo.com / Seller@123",
+          "customer": "customer@demo.com / Customer@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Apple App Store",
+          "Web Hosting"
+        ]
+      },
+      "marketplace": {
+        "multiVendor": true,
+        "commission": "Configurable",
+        "payouts": "Automated"
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Facebook Pixel",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone",
+        "Ticket System"
+      ],
+      "faq": [
+        {
+          "question": "Can I customize the design?",
+          "answer": "Yes, we provide complete customization options."
+        },
+        {
+          "question": "Is source code provided?",
+          "answer": "Yes, complete source code is provided."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Rahul Sharma",
+          "company": "FreshMart",
+          "comment": "Excellent platform, helped us grow our business 3x",
+          "rating": 5
+        }
+      ],
+      "integrations": [
+        "WhatsApp Business API",
+        "SMS Gateway",
+        "Email Marketing",
+        "Social Media Login"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi",
+          "Spanish",
+          "French"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD",
+          "EUR",
+          "GBP"
+        ]
+      },
+      "inventory": {
+        "management": true,
+        "autoUpdate": true,
+        "stockAlerts": true
+      },
+      "shipping": {
+        "multipleCarriers": true,
+        "realTimeTracking": true,
+        "rateCalculation": "Automatic"
+      },
+      "discounts": {
+        "coupons": true,
+        "flashSales": true,
+        "bulkDiscounts": true,
+        "referralProgram": true
+      },
+      "reports": {
+        "salesReport": true,
+        "userAnalytics": true,
+        "productPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "manager": true,
+        "support": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "compliance": [
+        "PCI DSS",
+        "GDPR",
+        "SOC2"
+      ],
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "seoTools": true,
+        "emailCampaigns": true,
+        "pushNotifications": true,
+        "socialMediaIntegration": true
+      },
+      "mobileFeatures": {
+        "offlineMode": true,
+        "fingerprintLogin": true,
+        "qrScanner": true,
+        "barcodeScanner": true
+      },
+      "aiFeatures": {
+        "chatbot": true,
+        "recommendations": true,
+        "personalization": true,
+        "fraudDetection": true
+      },
+      "api": {
+        "restApi": true,
+        "graphql": true,
+        "webhooks": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "accessibility": {
+        "wcagCompliant": true,
+        "screenReaderSupport": true,
+        "keyboardNavigation": true
+      },
+      "socialFeatures": {
+        "socialLogin": true,
+        "socialSharing": true,
+        "userReviews": true,
+        "ratings": true
+      },
+      "addons": [
+        {
+          "name": "Advanced Analytics",
+          "price": "₹25,000",
+          "description": "Detailed analytics with AI insights"
+        },
+        {
+          "name": "AI Chatbot",
+          "price": "₹35,000",
+          "description": "Intelligent customer support chatbot"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "food-delivery",
+      "category": "Food",
+      "subcategory": "Food Delivery",
+      "name": "Food Delivery Website & App",
+      "shortDescription": "Complete food delivery platform with restaurant and delivery boy apps",
+      "longDescription": "Full-featured food delivery platform with customer app, restaurant panel, delivery boy app, live tracking, and online payments. Perfect for launching your food delivery business.",
+      "icon": "🍔",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/FoodDeliveryIMG.webp",
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706572/dexterous/category/FoodDeliverycard.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706572/dexterous/category/FoodDelivery.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706572/dexterous/category/FoodDeliveryapp.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706584/dexterous/category/qualityfood.webp"
+      ],
+      "hyderabadPrice": 280000,
+      "bangalorePrice": 350000,
+      "otherCitiesPrice": 280000,
+      "emiOptions": {
+        "3months": "₹93,333/month",
+        "6months": "₹46,667/month",
+        "12months": "₹23,333/month"
+      },
+      "deliveryTime": "35-45 Days",
+      "support": "6 Months",
+      "popular": true,
+      "rating": 4.9,
+      "reviews": 156,
+      "features": [
+        "Customer App",
+        "Restaurant Panel",
+        "Delivery Boy App",
+        "Admin Panel",
+        "Live Tracking",
+        "Online Payments"
+      ],
+      "featurePrices": {
+        "Customer App": "₹40,000",
+        "Restaurant Panel": "₹35,000",
+        "Delivery Boy App": "₹30,000",
+        "Admin Panel": "₹38,000",
+        "Live Tracking": "₹25,000",
+        "Online Payments": "₹20,000"
+      },
+      "technologies": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "AWS",
+        "Google Maps"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe",
+        "Cashfree"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada",
+        "Tamil"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹6,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection",
+        "GDPR Compliant"
+      ],
+      "demo": {
+        "url": "https://play.google.com/store/apps/details?id=com.foodside",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "restaurant": "restaurant@demo.com / Rest@123",
+          "delivery": "delivery@demo.com / Del@123",
+          "customer": "customer@demo.com / Cust@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "3 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Apple App Store",
+          "Web Hosting"
+        ]
+      },
+      "marketplace": {
+        "multiVendor": true,
+        "commission": "Configurable",
+        "payouts": "Automated"
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Facebook Pixel",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone",
+        "Ticket System"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple restaurants?",
+          "answer": "Yes, unlimited restaurant support is included."
+        },
+        {
+          "question": "Is real-time tracking available?",
+          "answer": "Yes, GPS-based live tracking is included."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Amit Kumar",
+          "company": "FoodExpress",
+          "comment": "Best food delivery platform in the market",
+          "rating": 5
+        }
+      ],
+      "integrations": [
+        "Google Maps",
+        "SMS Gateway",
+        "Email Marketing",
+        "Social Media Login"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi",
+          "Spanish",
+          "French"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD",
+          "EUR"
+        ]
+      },
+      "inventory": {
+        "management": true,
+        "autoUpdate": true,
+        "stockAlerts": true
+      },
+      "discounts": {
+        "coupons": true,
+        "flashSales": true,
+        "bulkDiscounts": true,
+        "referralProgram": true
+      },
+      "reports": {
+        "salesReport": true,
+        "userAnalytics": true,
+        "restaurantPerformance": true,
+        "deliveryPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "restaurantManager": true,
+        "deliveryBoy": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "seoTools": true,
+        "emailCampaigns": true,
+        "pushNotifications": true,
+        "socialMediaIntegration": true
+      },
+      "mobileFeatures": {
+        "offlineMode": true,
+        "fingerprintLogin": true,
+        "qrScanner": true
+      },
+      "aiFeatures": {
+        "chatbot": true,
+        "recommendations": true,
+        "personalization": true
+      },
+      "api": {
+        "restApi": true,
+        "graphql": true,
+        "webhooks": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "socialFeatures": {
+        "socialLogin": true,
+        "socialSharing": true,
+        "userReviews": true,
+        "ratings": true
+      },
+      "addons": [
+        {
+          "name": "AI Recommendations",
+          "price": "₹30,000",
+          "description": "AI-based food recommendations"
+        },
+        {
+          "name": "Loyalty Program",
+          "price": "₹20,000",
+          "description": "Customer loyalty and rewards program"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "real-estate",
+      "category": "Real Estate",
+      "subcategory": "Property Management",
+      "name": "Real Estate Website & App",
+      "shortDescription": "Complete real estate platform with property listing and management",
+      "longDescription": "Advanced real estate platform with property listings, agent management, map integration, and inquiry system. Perfect for real estate agencies and property developers.",
+      "icon": "🏠",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706570/dexterous/banner/RealEstateIMG.webp",
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706572/dexterous/category/MyGoldenHomecard.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706581/dexterous/category/mgh.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706581/dexterous/category/mygoldenweb.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706578/dexterous/category/greenvilla.webp"
+      ],
+      "hyderabadPrice": 280000,
+      "bangalorePrice": 420000,
+      "otherCitiesPrice": 280000,
+      "emiOptions": {
+        "3months": "₹93,333/month",
+        "6months": "₹46,667/month",
+        "12months": "₹23,333/month"
+      },
+      "deliveryTime": "35-50 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.6,
+      "reviews": 89,
+      "features": [
+        "Property Listing",
+        "Admin Panel",
+        "Agent Panel",
+        "Map Integration",
+        "Property Search",
+        "Inquiry System",
+        "Android App"
+      ],
+      "featurePrices": {
+        "Property Listing": "₹40,000",
+        "Admin Panel": "₹30,000",
+        "Agent Panel": "₹25,000",
+        "Map Integration": "₹50,000",
+        "Property Search": "₹20,000",
+        "Inquiry System": "₹15,000",
+        "Android App": "₹45,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Google Maps API",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹6,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection"
+      ],
+      "demo": {
+        "url": "https://play.google.com/store/apps/details?id=com.mygoldenhomes.app",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "agent": "agent@demo.com / Agent@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "marketplace": {
+        "multiVendor": false,
+        "commission": "Not Applicable",
+        "payouts": "Manual"
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add virtual tours?",
+          "answer": "Yes, we can integrate 360° virtual tours."
+        },
+        {
+          "question": "Is map integration included?",
+          "answer": "Yes, Google Maps integration is included."
+        }
+      ],
+      "propertyTypes": [
+        "Residential",
+        "Commercial",
+        "Land"
+      ],
+      "propertyStatus": [
+        "New",
+        "Pre-Sale",
+        "Ready"
+      ],
+      "virtualTour": true,
+      "mortgageCalculator": true,
+      "propertyComparison": true,
+      "neighborhoodInfo": true,
+      "integrations": [
+        "Google Maps",
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "propertyReport": true,
+        "userAnalytics": true,
+        "inquiryReport": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "agent": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Virtual Tour Integration",
+          "price": "₹30,000",
+          "description": "360° virtual property tours"
+        },
+        {
+          "name": "Advanced Analytics",
+          "price": "₹20,000",
+          "description": "Detailed property analytics"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "fashion",
+      "category": "E-Commerce",
+      "subcategory": "Clothing & Fashion",
+      "name": "Clothing & Fashion Website & App",
+      "shortDescription": "Complete e-commerce platform with multi vendor",
+      "longDescription": "Professional fashion e-commerce platform with website, Android app, wishlist, coupons, and payment integration. Perfect for clothing brands and fashion retailers.",
+      "icon": "👕",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706569/dexterous/banner/E-commerceIMG.webp",
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706572/dexterous/category/Ewshoppingcard.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706577/dexterous/category/ewshoppingweb.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706571/dexterous/category/Ewshoppingapp.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706583/dexterous/category/onaya.webp"
+      ],
+      "hyderabadPrice": 180000,
+      "bangalorePrice": 250000,
+      "otherCitiesPrice": 180000,
+      "emiOptions": {
+        "3months": "₹60,000/month",
+        "6months": "₹30,000/month",
+        "12months": "₹15,000/month"
+      },
+      "deliveryTime": "25-35 Days",
+      "support": "6 Months",
+      "popular": true,
+      "rating": 4.7,
+      "reviews": 134,
+      "features": [
+        "Website",
+        "Android App",
+        "Wishlist",
+        "Coupons",
+        "Payments"
+      ],
+      "featurePrices": {
+        "Website": "₹28,000",
+        "Android App": "₹38,000",
+        "Wishlist": "₹15,000",
+        "Coupons": "₹12,000",
+        "Payments": "₹18,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹4,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://play.google.com/store/apps/details?id=com.ewsapp",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "user": "user@demo.com / User@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "1 Day Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "3 Custom Changes",
+        "additional": "₹1,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Facebook Pixel",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add product size and color variants?",
+          "answer": "Yes, product variants and attributes are supported."
+        },
+        {
+          "question": "Is wishlist included?",
+          "answer": "Yes, wishlist and save for later features are included."
+        }
+      ],
+      "integrations": [
+        "WhatsApp Business API",
+        "SMS Gateway",
+        "Email Marketing",
+        "Social Media Login"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD"
+        ]
+      },
+      "inventory": {
+        "management": true,
+        "autoUpdate": true,
+        "stockAlerts": true
+      },
+      "discounts": {
+        "coupons": true,
+        "flashSales": true,
+        "bulkDiscounts": true
+      },
+      "reports": {
+        "salesReport": true,
+        "userAnalytics": true,
+        "productPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "seoTools": true,
+        "emailCampaigns": true,
+        "pushNotifications": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "socialFeatures": {
+        "socialLogin": true,
+        "userReviews": true,
+        "ratings": true
+      },
+      "addons": [
+        {
+          "name": "AI Recommendations",
+          "price": "₹20,000",
+          "description": "AI-based product recommendations"
+        },
+        {
+          "name": "iOS App",
+          "price": "₹38,000",
+          "description": "iOS mobile application"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "news-media",
+      "category": "News",
+      "subcategory": "Media & Publishing",
+      "name": "News & Media Website & App",
+      "shortDescription": "Complete news portal with real-time updates and push notifications",
+      "longDescription": "Professional news and media platform with categories, breaking news alerts, and SEO optimization. Perfect for news agencies, media houses, and bloggers.",
+      "icon": "📰",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706569/dexterous/banner/NewsPlatform.webp",
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706575/dexterous/category/dhruva24card.webp",
+      "images": [
+        "/category/news-1.webp",
+        "/category/news-2.webp"
+      ],
+      "hyderabadPrice": 220000,
+      "bangalorePrice": 380000,
+      "otherCitiesPrice": 220000,
+      "emiOptions": {
+        "3months": "₹73,333/month",
+        "6months": "₹36,667/month",
+        "12months": "₹18,333/month"
+      },
+      "deliveryTime": "20-30 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.5,
+      "reviews": 67,
+      "features": [
+        "News Portal",
+        "Android App",
+        "Categories",
+        "Breaking News",
+        "Push Notifications",
+        "SEO Friendly"
+      ],
+      "featurePrices": {
+        "News Portal": "₹30,000",
+        "Android App": "₹40,000",
+        "Categories": "₹15,000",
+        "Breaking News": "₹20,000",
+        "Push Notifications": "₹12,000",
+        "SEO Friendly": "₹18,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "AWS"
+      ],
+      "paymentGateways": [],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹4,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://dhruva24.com/",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF"
+      },
+      "training": {
+        "included": true,
+        "duration": "1 Day Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "3 Custom Changes",
+        "additional": "₹1,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple authors?",
+          "answer": "Yes, multi-author support is included."
+        },
+        {
+          "question": "Is monetization supported?",
+          "answer": "Yes, Google AdSense integration is available."
+        }
+      ],
+      "integrations": [
+        "Google AdSense",
+        "Social Media APIs",
+        "SMS Gateway"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "trafficReport": true,
+        "userAnalytics": true,
+        "contentPerformance": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "editor": true,
+        "author": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "seoTools": true,
+        "emailCampaigns": true,
+        "pushNotifications": true,
+        "socialMediaIntegration": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 1.5 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Premium Subscription",
+          "price": "₹20,000",
+          "description": "Paid subscription module"
+        },
+        {
+          "name": "Mobile App iOS",
+          "price": "₹40,000",
+          "description": "iOS app development"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "service-booking",
+      "category": "Booking",
+      "subcategory": "Service Booking",
+      "name": "Service Booking Website & App",
+      "shortDescription": "Complete service booking platform with provider panel",
+      "longDescription": "Professional service booking platform with provider panel, booking system, payment integration, and detailed reports. Perfect for home services, health services, and professional services.",
+      "icon": "🛠️",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706569/dexterous/banner/ServiceBooking-Platform-Img.webp",
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706571/dexterous/category/Driveomecard.webp",
+      "images": [
+        "/category/service-1.webp",
+        "/category/service-2.webp"
+      ],
+      "hyderabadPrice": 320000,
+      "bangalorePrice": 380000,
+      "otherCitiesPrice": 320000,
+      "emiOptions": {
+        "3months": "₹106,667/month",
+        "6months": "₹53,333/month",
+        "12months": "₹26,667/month"
+      },
+      "deliveryTime": "40-50 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.6,
+      "reviews": 94,
+      "features": [
+        "Website",
+        "Android App",
+        "Provider Panel",
+        "Booking System",
+        "Payments",
+        "Reports"
+      ],
+      "featurePrices": {
+        "Website": "₹45,000",
+        "Android App": "₹50,000",
+        "Provider Panel": "₹35,000",
+        "Booking System": "₹30,000",
+        "Payments": "₹22,000",
+        "Reports": "₹18,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹5,500/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection"
+      ],
+      "demo": {
+        "url": "https://play.google.com/store/apps/details?id=com.driveOme",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "provider": "provider@demo.com / Pro@123",
+          "user": "user@demo.com / User@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple service categories?",
+          "answer": "Yes, unlimited categories and subcategories are supported."
+        },
+        {
+          "question": "Is provider verification included?",
+          "answer": "Yes, provider verification and approval system is included."
+        }
+      ],
+      "serviceCategories": [
+        "Home Services",
+        "Health Services",
+        "Education"
+      ],
+      "providerVerification": true,
+      "serviceAreas": [
+        "City-wise",
+        "Pincode-wise"
+      ],
+      "appointmentSlots": true,
+      "reminderSystem": true,
+      "rescheduling": true,
+      "cancellationPolicy": true,
+      "integrations": [
+        "SMS Gateway",
+        "Email Marketing",
+        "Calendar API"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "bookingReport": true,
+        "userAnalytics": true,
+        "providerPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "provider": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Advanced Analytics",
+          "price": "₹25,000",
+          "description": "Detailed analytics with business insights"
+        },
+        {
+          "name": "iOS App",
+          "price": "₹50,000",
+          "description": "iOS mobile application"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "car-repair",
+      "url": "/car-service-booking-platform-in-hyderabad",
+      "category": "Services",
+      "subcategory": "Automotive Services",
+      "name": "Car Repair & Services Platform",
+      "shortDescription": "Complete car service booking platform with real-time tracking in Hyderabad",
+      "longDescription": "Professional car repair and service booking platform with service management, booking system, payment gateway, and admin dashboard. Perfect for car service centers and garages in Hyderabad.",
+      "icon": "🚗",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/All-ServicesIMG.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706573/dexterous/category/car-service-1.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706573/dexterous/category/car-service-2.webp"
+      ],
+      "hyderabadPrice": 260000,
+      "bangalorePrice": 350000,
+      "otherCitiesPrice": 250000,
+      "emiOptions": {
+        "3months": "₹86,667/month",
+        "6months": "₹43,333/month",
+        "12months": "₹21,667/month"
+      },
+      "deliveryTime": "25-40 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.7,
+      "reviews": 78,
+      "features": [
+        "Website",
+        "Android App",
+        "Booking",
+        "Service Management",
+        "Payment Gateway",
+        "Admin Dashboard"
+      ],
+      "featurePrices": {
+        "Website": "₹35,000",
+        "Android App": "₹45,000",
+        "Booking": "₹25,000",
+        "Service Management": "₹30,000",
+        "Payment Gateway": "₹20,000",
+        "Admin Dashboard": "₹28,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹5,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection"
+      ],
+      "demo": {
+        "url": "https://driveome.com/",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "user": "user@demo.com / User@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple service centers?",
+          "answer": "Yes, multi-location support is included."
+        },
+        {
+          "question": "Is real-time tracking available?",
+          "answer": "Yes, service tracking and status updates are included."
+        }
+      ],
+      "integrations": [
+        "SMS Gateway",
+        "Email Marketing",
+        "Google Maps"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "serviceReport": true,
+        "userAnalytics": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "serviceProvider": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Inventory Management",
+          "price": "₹25,000",
+          "description": "Spare parts inventory management"
+        },
+        {
+          "name": "iOS App",
+          "price": "₹45,000",
+          "description": "iOS mobile application"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "courier",
+      "category": "Logistics",
+      "subcategory": "Courier & Delivery",
+      "name": "Courier Website & App",
+      "shortDescription": "Complete courier management platform with tracking and delivery app",
+      "longDescription": "Professional courier management platform with tracking, booking, hub management, delivery app, admin panel, and detailed reports. Perfect for courier companies and logistics businesses.",
+      "icon": "📦",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/CourierDeliveryIMG.webp",
+      "images": [
+        "/category/courier-1.webp",
+        "/category/courier-2.webp"
+      ],
+      "hyderabadPrice": 250000,
+      "bangalorePrice": 320000,
+      "otherCitiesPrice": 250000,
+      "emiOptions": {
+        "3months": "₹83,333/month",
+        "6months": "₹41,667/month",
+        "12months": "₹20,833/month"
+      },
+      "deliveryTime": "30-45 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.4,
+      "reviews": 67,
+      "features": [
+        "Courier Tracking",
+        "Booking",
+        "Hub Management",
+        "Delivery App",
+        "Admin Panel",
+        "Reports"
+      ],
+      "featurePrices": {
+        "Courier Tracking": "₹25,000",
+        "Booking": "₹20,000",
+        "Hub Management": "₹35,000",
+        "Delivery App": "₹30,000",
+        "Admin Panel": "₹28,000",
+        "Reports": "₹15,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "Google Maps"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹5,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://ewcourier.com/",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "delivery": "delivery@demo.com / Del@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple pickup/drop locations?",
+          "answer": "Yes, multiple hub and location management is included."
+        },
+        {
+          "question": "Is real-time tracking available?",
+          "answer": "Yes, real-time GPS tracking is included."
+        }
+      ],
+      "integrations": [
+        "Google Maps",
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "deliveryReport": true,
+        "userAnalytics": true,
+        "hubPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "hubManager": true,
+        "deliveryBoy": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Advanced Analytics",
+          "price": "₹20,000",
+          "description": "Detailed logistics analytics"
+        },
+        {
+          "name": "iOS App",
+          "price": "₹40,000",
+          "description": "iOS mobile application"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "taxi-booking",
+      "category": "Transportation",
+      "subcategory": "Taxi Booking",
+      "name": "Taxi Booking (Rapido / Ola Clone)",
+      "shortDescription": "Complete taxi booking platform with customer and driver apps",
+      "longDescription": "Full-featured taxi booking platform with customer app, driver app, admin panel, live tracking, wallet, and online payments. Perfect for launching your ride-hailing service.",
+      "icon": "🚖",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706569/dexterous/banner/ServiceBooking-Platform-Img.webp",
+      "images": [
+        "/category/taxi-1.webp",
+        "/category/taxi-2.webp",
+        "/category/taxi-3.webp"
+      ],
+      "hyderabadPrice": 280000,
+      "bangalorePrice": 480000,
+      "otherCitiesPrice": 280000,
+      "emiOptions": {
+        "3months": "₹93,333/month",
+        "6months": "₹46,667/month",
+        "12months": "₹23,333/month"
+      },
+      "deliveryTime": "45-60 Days",
+      "support": "6 Months",
+      "popular": true,
+      "rating": 4.8,
+      "reviews": 189,
+      "features": [
+        "Customer App",
+        "Driver App",
+        "Admin Panel",
+        "Live Tracking",
+        "Wallet",
+        "Online Payments"
+      ],
+      "featurePrices": {
+        "Customer App": "₹45,000",
+        "Driver App": "₹40,000",
+        "Admin Panel": "₹38,000",
+        "Live Tracking": "₹35,000",
+        "Wallet": "₹20,000",
+        "Online Payments": "₹18,000"
+      },
+      "technologies": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "Google Maps",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe",
+        "Cashfree"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada",
+        "Tamil"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹6,500/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection",
+        "GDPR Compliant"
+      ],
+      "demo": {
+        "url": "https://demo.taxi.com",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "driver": "driver@demo.com / Driver@123",
+          "customer": "customer@demo.com / Cust@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "3 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹3,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Apple App Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone",
+        "Ticket System"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple vehicle types?",
+          "answer": "Yes, multiple vehicle categories are supported."
+        },
+        {
+          "question": "Is real-time tracking available?",
+          "answer": "Yes, GPS-based live tracking is included."
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Vikram Singh",
+          "company": "CityRide",
+          "comment": "Amazing platform with all features of Ola/Uber",
+          "rating": 5
+        }
+      ],
+      "integrations": [
+        "Google Maps",
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi",
+          "Spanish"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD",
+          "EUR"
+        ]
+      },
+      "discounts": {
+        "coupons": true,
+        "referralProgram": true
+      },
+      "reports": {
+        "rideReport": true,
+        "userAnalytics": true,
+        "driverPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "driver": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "pushNotifications": true,
+        "socialMediaIntegration": true
+      },
+      "mobileFeatures": {
+        "offlineMode": true,
+        "fingerprintLogin": true
+      },
+      "aiFeatures": {
+        "chatbot": true,
+        "fraudDetection": true
+      },
+      "api": {
+        "restApi": true,
+        "graphql": true,
+        "webhooks": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "socialFeatures": {
+        "socialLogin": true,
+        "userReviews": true,
+        "ratings": true
+      },
+      "addons": [
+        {
+          "name": "AI Route Optimization",
+          "price": "₹35,000",
+          "description": "AI-based route optimization"
+        },
+        {
+          "name": "Fleet Management",
+          "price": "₹25,000",
+          "description": "Advanced fleet management system"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "appointment-booking",
+      "url": "/appointment-booking-and-e-commerce-platform-in-hyderabad",
+      "category": "Booking",
+      "subcategory": "Appointment Management",
+      "name": "Complete Appointment Booking System",
+      "shortDescription": "Complete appointment booking system with calendar and notifications in Hyderabad",
+      "longDescription": "Professional appointment booking system with calendar, notifications, payments, and admin panel. Perfect for clinics, salons, doctors, and service providers in Hyderabad.",
+      "icon": "📅",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/All-ServicesIMG.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706573/dexterous/category/appointment.webp",
+        "/category/appointment-1.webp",
+        "/category/appointment-2.webp"
+      ],
+      "hyderabadPrice": 210000,
+      "bangalorePrice": 280000,
+      "otherCitiesPrice": 320000,
+      "emiOptions": {
+        "3months": "₹70,000/month",
+        "6months": "₹35,000/month",
+        "12months": "₹17,500/month"
+      },
+      "deliveryTime": "20-30 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.4,
+      "reviews": 56,
+      "features": [
+        "Booking Calendar",
+        "Notifications",
+        "Payments",
+        "Admin Panel"
+      ],
+      "featurePrices": {
+        "Booking Calendar": "₹25,000",
+        "Notifications": "₹15,000",
+        "Payments": "₹18,000",
+        "Admin Panel": "₹22,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal"
+      ],
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹4,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://demo.appointment.com",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF"
+      },
+      "training": {
+        "included": true,
+        "duration": "1 Day Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "3 Custom Changes",
+        "additional": "₹1,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "faq": [
+        {
+          "question": "Can I set up multiple service providers?",
+          "answer": "Yes, multiple provider support is included."
+        },
+        {
+          "question": "Is SMS reminder included?",
+          "answer": "Yes, automated SMS reminders are included."
+        }
+      ],
+      "integrations": [
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "bookingReport": true,
+        "userAnalytics": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 1.5 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Video Consultation",
+          "price": "₹20,000",
+          "description": "Video calling integration"
+        },
+        {
+          "name": "Mobile App",
+          "price": "₹35,000",
+          "description": "Android mobile application"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "job-portal",
+      "category": "Recruitment",
+      "subcategory": "Job Portal",
+      "name": "Job Portal Website & App",
+      "shortDescription": "Complete job portal with employer and candidate panels",
+      "longDescription": "Professional job portal with employer panel, candidate panel, resume upload, job search, and admin dashboard. Perfect for recruitment agencies and job boards.",
+      "icon": "💼",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/Business-WebsiteIMG.webp",
+      "images": [
+        "/category/job-1.webp",
+        "/category/job-2.webp"
+      ],
+      "hyderabadPrice": 280000,
+      "bangalorePrice": 360000,
+      "otherCitiesPrice": 280000,
+      "emiOptions": {
+        "3months": "₹93,333/month",
+        "6months": "₹46,667/month",
+        "12months": "₹23,333/month"
+      },
+      "deliveryTime": "30-45 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.5,
+      "reviews": 78,
+      "features": [
+        "Employer Panel",
+        "Candidate Panel",
+        "Resume Upload",
+        "Job Search",
+        "Admin Dashboard"
+      ],
+      "featurePrices": {
+        "Employer Panel": "₹35,000",
+        "Candidate Panel": "₹30,000",
+        "Resume Upload": "₹15,000",
+        "Job Search": "₹18,000",
+        "Admin Dashboard": "₹28,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹5,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://demo.jobportal.com",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "employer": "employer@demo.com / Emp@123",
+          "candidate": "candidate@demo.com / Can@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add job categories?",
+          "answer": "Yes, unlimited job categories are supported."
+        },
+        {
+          "question": "Is resume parsing included?",
+          "answer": "Yes, advanced resume parsing is included."
+        }
+      ],
+      "integrations": [
+        "Email Marketing",
+        "SMS Gateway"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "jobReport": true,
+        "userAnalytics": true,
+        "employerPerformance": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "employer": true,
+        "candidate": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Advanced Search",
+          "price": "₹20,000",
+          "description": "AI-powered job search"
+        },
+        {
+          "name": "iOS App",
+          "price": "₹40,000",
+          "description": "iOS mobile application"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "matrimony",
+      "url": "/matrimony-website-app-development-in-hyderabad",
+      "category": "Social",
+      "subcategory": "Matrimony",
+      "name": "Matrimony Website & App",
+      "shortDescription": "Complete matrimony platform with profile matching and chat",
+      "longDescription": "Professional matrimony platform with profile matching, chat, premium plans, and admin panel. Perfect for matrimony services and matchmaking businesses.",
+      "icon": "❤️",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/Business-WebsiteIMG.webp",
+      "images": [
+        "/category/matrimony-1.webp",
+        "/category/matrimony-2.webp"
+      ],
+      "hyderabadPrice": 370000,
+      "bangalorePrice": 450000,
+      "otherCitiesPrice": 370000,
+      "emiOptions": {
+        "3months": "₹123,333/month",
+        "6months": "₹61,667/month",
+        "12months": "₹30,833/month"
+      },
+      "deliveryTime": "45-60 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.6,
+      "reviews": 92,
+      "features": [
+        "Profile Matching",
+        "Chat",
+        "Premium Plans",
+        "Admin Panel"
+      ],
+      "featurePrices": {
+        "Profile Matching": "₹45,000",
+        "Chat": "₹30,000",
+        "Premium Plans": "₹40,000",
+        "Admin Panel": "₹35,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada",
+        "Tamil"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹6,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection"
+      ],
+      "demo": {
+        "url": "https://demo.matrimony.com",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "user": "user@demo.com / User@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Apple App Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple community filters?",
+          "answer": "Yes, advanced filters and matching algorithms are included."
+        },
+        {
+          "question": "Is chat system included?",
+          "answer": "Yes, real-time chat system is included."
+        }
+      ],
+      "integrations": [
+        "SMS Gateway",
+        "Email Marketing",
+        "Social Media APIs"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi",
+          "Tamil",
+          "Telugu"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD"
+        ]
+      },
+      "discounts": {
+        "coupons": true,
+        "referralProgram": true
+      },
+      "reports": {
+        "userReport": true,
+        "subscriptionReport": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "pushNotifications": true,
+        "socialMediaIntegration": true,
+        "emailCampaigns": true
+      },
+      "mobileFeatures": {
+        "fingerprintLogin": true
+      },
+      "aiFeatures": {
+        "matchingAlgorithm": true,
+        "recommendations": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "socialFeatures": {
+        "socialLogin": true,
+        "socialSharing": true
+      },
+      "addons": [
+        {
+          "name": "AI Matching",
+          "price": "₹30,000",
+          "description": "AI-powered profile matching"
+        },
+        {
+          "name": "Horoscope Integration",
+          "price": "₹25,000",
+          "description": "Astrology and horoscope matching"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "business-website",
+      "category": "Website",
+      "subcategory": "Business Website",
+      "name": "5-10 Pages Business Website",
+      "shortDescription": "Professional business website with responsive design and SEO",
+      "longDescription": "Professional business website with 5-10 pages, responsive design, SEO friendly, contact form, WhatsApp integration, and admin panel. Perfect for startups, SMEs, and corporate businesses.",
+      "icon": "🌐",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/Business-WebsiteIMG.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706574/dexterous/category/coempt.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706571/dexterous/category/Coemptweb.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706584/dexterous/category/spacedesignstudi0.webp"
+      ],
+      "hyderabadPrice": 5000,
+      "bangalorePrice": 5000,
+      "otherCitiesPrice": 5000,
+      "emiOptions": {
+        "3months": "₹1,750/month",
+        "6months": "₹900/month",
+        "12months": "₹500/month"
+      },
+      "deliveryTime": "5-7 Days",
+      "support": "1 Month",
+      "popular": true,
+      "rating": 4.9,
+      "reviews": 245,
+      "features": [
+        "Responsive Design",
+        "SEO Friendly",
+        "Contact Form",
+        "WhatsApp Integration",
+        "Admin Panel"
+      ],
+      "featurePrices": {
+        "Responsive Design": "₹15,000",
+        "SEO Friendly": "₹12,000",
+        "Contact Form": "₹8,000",
+        "WhatsApp Integration": "₹10,000",
+        "Admin Panel": "₹18,000"
+      },
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "MongoDB"
+      ],
+      "paymentGateways": [],
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "1 Month Free",
+        "renewal": "₹3,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://coempt.in/",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF"
+      },
+      "training": {
+        "included": true,
+        "duration": "1 Day Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "3 Custom Changes",
+        "additional": "₹1,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Facebook Pixel"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add more pages later?",
+          "answer": "Yes, additional pages can be added for a small fee."
+        },
+        {
+          "question": "Is the design customizable?",
+          "answer": "Yes, complete design customization is included."
+        }
+      ],
+      "integrations": [
+        "WhatsApp Business API",
+        "Google Maps",
+        "Social Media APIs"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "trafficReport": true,
+        "userAnalytics": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "seoTools": true
+      },
+      "api": {
+        "restApi": true
+      },
+      "performance": {
+        "pageLoadTime": "< 1 second",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "socialFeatures": {
+        "socialMediaIntegration": true
+      },
+      "addons": [
+        {
+          "name": "Additional Pages",
+          "price": "₹5,000/page",
+          "description": "Add more pages to your website"
+        },
+        {
+          "name": "Blog Section",
+          "price": "₹10,000",
+          "description": "Integrated blog and CMS"
+        },
+        {
+          "name": "E-Commerce Integration",
+          "price": "₹25,000",
+          "description": "Add online store functionality"
+        }
+      ],
+      "cardImage": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706571/dexterous/category/Coemptweb.webp"
+    },
+    {
+      "id": 14,
+      "slug": "jewellery",
+      "url": "/jewellery-ecommerce-website-app-development-in-hyderabad",
+      "category": "E-Commerce",
+      "subcategory": "Jewellery Store",
+      "name": "Jewellery E-Commerce Website & App",
+      "shortDescription": "Complete jewellery e-commerce platform with admin panel",
+      "longDescription": "Professional jewellery e-commerce platform with product management, order management, coupons, and payment gateway. Perfect for jewellery stores and brands.",
+      "icon": "💍",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706569/dexterous/banner/JewelleryIMG.webp",
+      "images": [
+        "/category/jewellery-1.webp",
+        "/category/jewellery-2.webp"
+      ],
+      "hyderabadPrice": 180000,
+      "bangalorePrice": 250000,
+      "otherCitiesPrice": 180000,
+      "emiOptions": {
+        "3months": "₹60,000/month",
+        "6months": "₹30,000/month",
+        "12months": "₹15,000/month"
+      },
+      "deliveryTime": "25-35 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.5,
+      "reviews": 56,
+      "features": [
+        "Website",
+        "Android App",
+        "Admin Panel",
+        "Orders",
+        "Coupons",
+        "Payment Gateway"
+      ],
+      "featurePrices": {
+        "Website": "₹28,000",
+        "Android App": "₹38,000",
+        "Admin Panel": "₹22,000",
+        "Orders": "₹18,000",
+        "Coupons": "₹12,000",
+        "Payment Gateway": "₹15,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹4,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption"
+      ],
+      "demo": {
+        "url": "https://lifestylegcc.com/",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "user": "user@demo.com / User@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF"
+      },
+      "training": {
+        "included": true,
+        "duration": "1 Day Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "3 Custom Changes",
+        "additional": "₹1,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp"
+      ],
+      "faq": [
+        {
+          "question": "Can I add product customization options?",
+          "answer": "Yes, product variants and customization are supported."
+        },
+        {
+          "question": "Is inventory management included?",
+          "answer": "Yes, complete inventory management is included."
+        }
+      ],
+      "integrations": [
+        "WhatsApp Business API",
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD"
+        ]
+      },
+      "inventory": {
+        "management": true,
+        "autoUpdate": true,
+        "stockAlerts": true
+      },
+      "discounts": {
+        "coupons": true,
+        "flashSales": true
+      },
+      "reports": {
+        "salesReport": true,
+        "userAnalytics": true,
+        "productPerformance": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "Product Customization",
+          "price": "₹15,000",
+          "description": "Advanced product customization features"
+        },
+        {
+          "name": "iOS App",
+          "price": "₹38,000",
+          "description": "iOS mobile application"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "medical",
+      "url": "/healthcare-platform-development-in-hyderabad",
+      "category": "Healthcare",
+      "subcategory": "Medical Services",
+      "name": "Complete Healthcare Platform",
+      "shortDescription": "Complete healthcare platform with doctor, hospital, and patient panels",
+      "longDescription": "Advanced healthcare platform with doctor panel, patient panel, hospital management, appointment booking, prescription management, and payment integration. Perfect for hospitals, clinics, and healthcare providers in Hyderabad.",
+      "icon": "🏥",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706569/dexterous/banner/HealthCareIMG.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706581/dexterous/category/medical.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706582/dexterous/category/medt.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706571/dexterous/bannertop/HealthcareApps.webp"
+      ],
+      "hyderabadPrice": 380000,
+      "bangalorePrice": 520000,
+      "otherCitiesPrice": 380000,
+      "emiOptions": {
+        "3months": "₹126,667/month",
+        "6months": "₹63,333/month",
+        "12months": "₹31,667/month"
+      },
+      "deliveryTime": "45-60 Days",
+      "support": "6 Months",
+      "popular": false,
+      "rating": 4.7,
+      "reviews": 103,
+      "features": [
+        "Doctor Panel",
+        "Patient Panel",
+        "Appointment",
+        "Prescription",
+        "Payments"
+      ],
+      "featurePrices": {
+        "Doctor Panel": "₹50,000",
+        "Patient Panel": "₹40,000",
+        "Appointment": "₹35,000",
+        "Prescription": "₹28,000",
+        "Payments": "₹22,000"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹7,000/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection",
+        "HIPAA Compliant"
+      ],
+      "demo": {
+        "url": "https://demo.medical.com",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "doctor": "doctor@demo.com / Doc@123",
+          "patient": "patient@demo.com / Pat@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "3 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹3,000/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Apple App Store",
+          "Web Hosting"
+        ]
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone",
+        "Ticket System"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple doctors?",
+          "answer": "Yes, unlimited doctor profiles are supported."
+        },
+        {
+          "question": "Is telemedicine included?",
+          "answer": "Yes, video consultation features are included."
+        }
+      ],
+      "integrations": [
+        "Video Calling API",
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "reports": {
+        "appointmentReport": true,
+        "userAnalytics": true,
+        "doctorPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "doctor": true,
+        "patient": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "compliance": [
+        "HIPAA",
+        "GDPR",
+        "PCI DSS"
+      ],
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "api": {
+        "restApi": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "addons": [
+        {
+          "name": "AI Diagnosis",
+          "price": "₹45,000",
+          "description": "AI-powered diagnosis assistant"
+        },
+        {
+          "name": "Pharmacy Integration",
+          "price": "₹35,000",
+          "description": "Online pharmacy and medicine delivery"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "urban-company",
+      "url": "/on-demand-service-marketplace-website-app-development-in-hyderabad",
+      "category": "Marketplace",
+      "subcategory": "Service Marketplace",
+      "name": "On-Demand Service Marketplace Website & App",
+      "shortDescription": "Complete on-demand service marketplace platform with customer app, partner app, live tracking, and super admin",
+      "longDescription": "Enterprise on-demand home and local services marketplace platform comparable to Urban Company with customer booking app, service partner app, live GPS tracking, slot calendar, online payments, and comprehensive admin dashboard.",
+      "icon": "🔧",
+      "image": "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706568/dexterous/banner/All-ServicesIMG.webp",
+      "images": [
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706602/dexterous/styles/assets/Complete_service_marketplace/service%20user%20app/11_customer_home.webp",
+        "https://res.cloudinary.com/dssdvnei1/image/upload/v1789706599/dexterous/styles/assets/Complete_service_marketplace/service%20partner/21_partner_dashboard.webp"
+      ],
+      "hyderabadPrice": 270000,
+      "bangalorePrice": 350000,
+      "otherCitiesPrice": 240000,
+      "emiOptions": {
+        "3months": "₹90,000/month",
+        "6months": "₹45,000/month",
+        "12months": "₹22,500/month"
+      },
+      "deliveryTime": "35-50 Days",
+      "support": "6 Months",
+      "popular": true,
+      "rating": 4.8,
+      "reviews": 167,
+      "features": [
+        "Customer App",
+        "Partner App",
+        "Booking",
+        "Payments",
+        "Admin Panel"
+      ],
+      "featurePrices": {
+        "Customer App": "₹38,000",
+        "Partner App": "₹32,000",
+        "Booking": "₹28,000",
+        "Payments": "₹20,000",
+        "Admin Panel": "₹30,000"
+      },
+      "technologies": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Firebase",
+        "Google Maps",
+        "AWS"
+      ],
+      "paymentGateways": [
+        "Razorpay",
+        "PayPal",
+        "Stripe"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Kannada"
+      ],
+      "hosting": {
+        "included": true,
+        "provider": "AWS",
+        "duration": "1 Year Free"
+      },
+      "maintenance": {
+        "included": true,
+        "duration": "6 Months Free",
+        "renewal": "₹5,500/month"
+      },
+      "seoOptimized": true,
+      "mobileResponsive": true,
+      "security": [
+        "SSL Certificate",
+        "Data Encryption",
+        "Firewall Protection"
+      ],
+      "demo": {
+        "url": "https://demo.urbancompany.com",
+        "credentials": {
+          "admin": "admin@demo.com / Admin@123",
+          "partner": "partner@demo.com / Part@123",
+          "customer": "customer@demo.com / Cust@123"
+        }
+      },
+      "documentation": {
+        "included": true,
+        "type": "Comprehensive PDF + Video Tutorials"
+      },
+      "training": {
+        "included": true,
+        "duration": "2 Days Online Training",
+        "mode": "Zoom/Google Meet"
+      },
+      "customization": {
+        "included": true,
+        "limit": "5 Custom Changes",
+        "additional": "₹2,500/change"
+      },
+      "sourceCode": {
+        "provided": true,
+        "repository": "Private GitHub Repo",
+        "license": "Commercial License"
+      },
+      "deployment": {
+        "included": true,
+        "platforms": [
+          "Google Play Store",
+          "Apple App Store",
+          "Web Hosting"
+        ]
+      },
+      "marketplace": {
+        "multiVendor": true,
+        "commission": "Configurable",
+        "payouts": "Automated"
+      },
+      "analytics": {
+        "included": true,
+        "tools": [
+          "Google Analytics",
+          "Custom Dashboard"
+        ]
+      },
+      "supportChannels": [
+        "Email",
+        "WhatsApp",
+        "Phone"
+      ],
+      "faq": [
+        {
+          "question": "Can I add multiple service categories?",
+          "answer": "Yes, unlimited categories and subcategories are supported."
+        },
+        {
+          "question": "Is partner verification included?",
+          "answer": "Yes, partner verification and approval system is included."
+        }
+      ],
+      "integrations": [
+        "Google Maps",
+        "SMS Gateway",
+        "Email Marketing"
+      ],
+      "multiLanguage": {
+        "supported": true,
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "multiCurrency": {
+        "supported": true,
+        "currencies": [
+          "INR",
+          "USD"
+        ]
+      },
+      "discounts": {
+        "coupons": true,
+        "referralProgram": true
+      },
+      "reports": {
+        "bookingReport": true,
+        "userAnalytics": true,
+        "partnerPerformance": true,
+        "financialReports": true
+      },
+      "userRoles": {
+        "superAdmin": true,
+        "admin": true,
+        "partner": true,
+        "user": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "frequency": "Daily",
+        "retention": "30 Days"
+      },
+      "uptime": {
+        "guarantee": "99.9%",
+        "monitoring": "24/7"
+      },
+      "branding": {
+        "whiteLabel": true,
+        "customDomain": true,
+        "customLogo": true
+      },
+      "marketing": {
+        "pushNotifications": true,
+        "socialMediaIntegration": true
+      },
+      "mobileFeatures": {
+        "offlineMode": true,
+        "fingerprintLogin": true
+      },
+      "aiFeatures": {
+        "chatbot": true,
+        "recommendations": true
+      },
+      "api": {
+        "restApi": true,
+        "graphql": true,
+        "webhooks": true,
+        "thirdPartyIntegration": true
+      },
+      "performance": {
+        "pageLoadTime": "< 2 seconds",
+        "optimized": true,
+        "caching": true,
+        "cdn": true
+      },
+      "socialFeatures": {
+        "socialLogin": true,
+        "userReviews": true,
+        "ratings": true
+      },
+      "addons": [
+        {
+          "name": "AI Matching",
+          "price": "₹25,000",
+          "description": "AI-based service provider matching"
+        },
+        {
+          "name": "Advanced Analytics",
+          "price": "₹20,000",
+          "description": "Detailed business analytics"
+        }
+      ]
+    }
+  ]
+}

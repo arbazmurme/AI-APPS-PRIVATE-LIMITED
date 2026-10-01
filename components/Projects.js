@@ -10,8 +10,8 @@ function ProductCard({ product, onOpenModal }) {
   const pkgData = productPackagesData[product.slug] || null;
 
   const displayImage = imgError 
-    ? (product.cardImage || '/hero_bg.jpg') 
-    : (product.image || product.cardImage || '/hero_bg.jpg');
+    ? (product.cardImage || '/hero_bg.webp') 
+    : (product.image || product.cardImage || '/hero_bg.webp');
 
   const startPrice = pkgData?.packages?.[0]?.price 
     || (product.hyderabadPrice ? `₹${product.hyderabadPrice.toLocaleString('en-IN')}/-` : 'Custom Quote');

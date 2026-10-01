@@ -17,7 +17,15 @@ const spaceGrotesk = Space_Grotesk({
   preload: false,
 });
 
-const BASE_URL = 'https://aiappshub.com';
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : 'https://aiappshub.com');
+
+const BASE_URL = SITE_URL;
 
 export const viewport = {
   width: 'device-width',
@@ -97,19 +105,25 @@ export const metadata = {
   /* ── Favicon / Icons ── */
   icons: {
     icon: [
-      { url: '/favicon.ico',  sizes: '32x32',  type: 'image/x-icon' },
-      { url: '/favicon.png',  sizes: '1254x1254', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', sizes: '192x192', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon.webp', type: 'image/webp' },
       { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
       { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
     ],
     shortcut: '/favicon.ico',
-    apple:    [{ url: '/favicon.png', sizes: '1254x1254', type: 'image/png' }],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/favicon.png', sizes: '192x192', type: 'image/png' },
+    ],
   },
 
   /* ── PWA Manifest ── */
   manifest: '/site.webmanifest',
 
-  /* ── Open Graph (Facebook, WhatsApp, LinkedIn) ── */
+  /* ── Open Graph (WhatsApp, Facebook, LinkedIn, Telegram) ── */
   openGraph: {
     type:        'website',
     locale:      'en_US',
@@ -119,7 +133,14 @@ export const metadata = {
     description: 'Web, Mobile, AI, SaaS, ERP, IoT & Blockchain solutions by India\'s leading software company. Based in Hyderabad — serving clients worldwide.',
     images: [
       {
-        url:    '/og_image.png',
+        url:    `${BASE_URL}/og_image.jpg`,
+        width:  1200,
+        height: 630,
+        alt:    'AI APPS PRIVATE LIMITED — Next-Gen Software & AI Solutions',
+        type:   'image/jpeg',
+      },
+      {
+        url:    `${BASE_URL}/og_image.png`,
         width:  1200,
         height: 630,
         alt:    'AI APPS PRIVATE LIMITED — Next-Gen Software & AI Solutions',
@@ -135,7 +156,7 @@ export const metadata = {
     creator:     '@aiappshub',
     title:       'AI APPS PRIVATE LIMITED | Software & AI Development',
     description: 'Web, Mobile, AI, SaaS, ERP, IoT & Blockchain solutions. Hyderabad, India.',
-    images:      ['/og_image.png'],
+    images:      [`${BASE_URL}/og_image.jpg`],
   },
 
   category:   'technology',
@@ -342,22 +363,29 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${outfit.variable} ${spaceGrotesk.variable}`}>
       <head>
-        {/* Favicon explicit tags (belt + suspenders) */}
-        <link rel="icon"             href="/favicon.ico"  sizes="32x32" />
-        <link rel="icon"             href="/favicon.png"  type="image/png" sizes="1254x1254" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        {/* Favicon explicit tags for all browsers & mobile devices */}
+        <link rel="icon"             href="/favicon.ico" sizes="any" />
+        <link rel="icon"             href="/favicon.png" type="image/png" sizes="192x192" />
+        <link rel="icon"             href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="icon"             href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="icon"             href="/favicon.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="shortcut icon"    href="/favicon.ico" />
 
-        {/* WhatsApp / Telegram / iMessage OG image */}
-        <meta property="og:image"        content={`${BASE_URL}/og_image.png`} />
-        <meta property="og:image:secure_url" content={`${BASE_URL}/og_image.png`} />
-        <meta property="og:image:width"  content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:type"   content="image/png" />
-        <meta property="og:image:alt"    content="AI APPS PRIVATE LIMITED — Next-Gen Software & AI Solutions" />
+        {/* WhatsApp / Telegram / iMessage / Facebook Open Graph image (under 120KB for guaranteed preview) */}
+        <meta property="og:image"            content={`${BASE_URL}/og_image.jpg`} />
+        <meta property="og:image:secure_url" content={`${BASE_URL}/og_image.jpg`} />
+        <meta property="og:image:type"       content="image/jpeg" />
+        <meta property="og:image:width"      content="1200" />
+        <meta property="og:image:height"     content="630" />
+        <meta property="og:image:alt"        content="AI APPS PRIVATE LIMITED — Next-Gen Software & AI Solutions" />
+
+        {/* Fallback PNG */}
+        <meta property="og:image"            content={`${BASE_URL}/og_image.png`} />
+        <meta property="og:image:type"       content="image/png" />
 
         {/* Twitter / X */}
-        <meta name="twitter:image"       content={`${BASE_URL}/og_image.png`} />
+        <meta name="twitter:image"       content={`${BASE_URL}/og_image.jpg`} />
         <meta name="twitter:card"        content="summary_large_image" />
 
         {/* Local SEO Geo Tags */}
